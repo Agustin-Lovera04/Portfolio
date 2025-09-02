@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import { useEffect, useState } from 'react';
 import "./Navbar_Style.css";
+import logo from '../../assets/Logo_recorte.png'
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -18,7 +19,7 @@ const NavBar = () => {
     <nav className={`navbar navbar-expand-lg navbar-dark fixed-top p-4 ${scrolled ? "scrolled" : ""}`}>
      <div class="container-fluid">
         <img
-          src="/images/Logo_recorte.png"
+          src={logo}
           alt="logo"
           className="logo_img navbar-brand"
         />

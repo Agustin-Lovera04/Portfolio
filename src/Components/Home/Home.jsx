@@ -4,6 +4,9 @@ import Form from "../Form/Form";
 import Skills from "../Skills/Skills";
 import Timeline from "../TimeLine/TimeLine";
 import "./Home_Styles.css";
+import imgPerfil from '../../assets/img_perfil.png'
+import elementSc2 from '../../assets/elemento_sc2.png'
+import elementSc3 from '../../assets/elemento_sc3.png'
 
 const Home = () => {
   useEffect(() => {
@@ -16,13 +19,12 @@ const Home = () => {
 
   return (
     <div className="container-fluid">
-      {/* SECCIÓN 1 */}
       <div className="sc1 row align-items-center" id="inicio">
         <div
           className="col-12 col-md-4 text-center text-md-end"
           data-aos="fade-right"
         >
-          <img src="/images/img_perfil.png" alt="" className="img_perfil" />
+          <img src={imgPerfil} alt="" className="img_perfil" />
         </div>
         <div
           className="col-12 col-md-8 d-flex align-items-center"
@@ -61,14 +63,13 @@ const Home = () => {
         </div>
       </div>
 
-      {/* SECCIÓN 2 */}
       <div
         className="sc2 row justify-content-center align-items-center"
         data-aos="fade-up"
       >
         <div className="col-12 col-md-6 text-md-center">
           <img
-            src="/images/elemento_sc2.png"
+            src={elementSc2}
             alt=""
             className="img_elemento_sc2"
             data-aos="zoom-in"
@@ -85,8 +86,6 @@ const Home = () => {
           </p>
         </div>
       </div>
-
-      {/* SECCIÓN 3 */}
       <div
         className="sc3 row justify-content-center"
         id="proyectos"
@@ -100,14 +99,13 @@ const Home = () => {
         </div>
       </div>
 
-      {/* SECCIÓN 4 */}
       <div
         className="sc4 row justify-content-center align-items-center"
         data-aos="fade-up"
       >
         <div className="col-12 col-md-6 text-center" data-aos="fade-right">
           <img
-            src="/images/elemento_sc3.png"
+            src={elementSc3}
             alt=""
             className="img_elemento_sc4"
           />
@@ -116,8 +114,6 @@ const Home = () => {
           Hagamos que las ideas <mark>funcionen</mark>
         </h1>
       </div>
-
-      {/* SECCIÓN 5 */}
       <div className="sc5 mt-4">
         <h1
           className="var-h1 text-center text-light"
@@ -129,7 +125,6 @@ const Home = () => {
         <Skills />
       </div>
 
-      {/* SECCIÓN 6 */}
       <div
         className="sc6 row justify-content-center"
         id="formacion"
@@ -141,7 +136,6 @@ const Home = () => {
         <Timeline />
       </div>
 
-      {/* SECCIÓN 7 */}
       <div className="sc7" id="contacto" data-aos="zoom-in-up">
         <Form />
       </div>

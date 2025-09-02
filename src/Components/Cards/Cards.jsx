@@ -1,4 +1,8 @@
 import "./Cards_Style.css";
+import HA_img from '../../assets/HA_img.png'
+import BZ_img from '../../assets/BZ_img.png'
+import PN_img from '../../assets/PN_img.png'
+import AM_img from '../../assets/AM_img.jpg'
 
 const Cards = () => {
   return (
@@ -6,7 +10,7 @@ const Cards = () => {
       <div className="card col-10 col-md-4">
         <div className="img_card_container HA_bg text-center align-content-center">
           <img
-            src="/images/HA_img.png"
+            src={HA_img}
             className="card-img-top shadow"
             alt="sitio web"
           />
@@ -26,7 +30,7 @@ const Cards = () => {
       <div className="card col-10 col-md-4">
         <div className="img_card_container BZ_bg text-center align-content-center">
           <img
-            src="/images/BZ_img.png"
+            src={BZ_img}
             className="card-img-top shadow"
             alt="desarrollo web"
           />
@@ -50,7 +54,7 @@ const Cards = () => {
       <div className="card col-10 col-md-4">
         <div className="img_card_container PN_bg text-center align-content-center">
           <img
-            src="/images/PN_img.png"
+            src={PN_img}
             className="card-img-top shadow"
             alt="..."
           />
@@ -73,7 +77,7 @@ const Cards = () => {
       <div className="card col-10 col-md-4">
         <div className="img_card_container AM_bg text-center align-content-center">
           <img
-            src="/images/AM_img.jpg"
+            src={AM_img}
             className="card-img-top img_AMORATTO shadow"
             alt="programacion"
           />
