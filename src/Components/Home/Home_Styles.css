@@ -1,0 +1,101 @@
+.sc1 {
+  background-image: url("/images/gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0 18rem 0;
+}
+
+.img_perfil {
+  border-radius: 40%;
+  height: 14rem;
+}
+
+.icon-click {
+  position: absolute;
+  right: 8rem;
+}
+
+.sc2{
+  margin-top: -160px;
+}
+.img_elemento_sc2 {
+  height: 30rem;
+  object-fit: cover;
+}
+
+.p_sobreMi {
+  width: 80%;
+  text-align: justify;
+  /* color: var(--color_var_4); */
+  color: black;
+}
+
+.sc4 {
+  margin-top: 2rem;
+  margin-bottom: -12rem;
+  z-index: 2;
+}
+.img_elemento_sc4{
+  height: 30rem;
+  object-fit: cover;
+}
+mark {
+  color: var(--color_var_1);
+  padding: 0.2px;
+  background-color: var(--color_var_6);
+}
+
+.sc5 {
+  background-color: var(--color_var_3);
+  padding: 12rem 0 4rem 0;
+}
+
+.sc7 {
+  background-image: url(/images/gradient_sc6.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem 0 1rem 0;
+}
+
+
+
+@media (max-width:768px) {
+.img_perfil {
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.icon-click {
+  left: 14rem;
+}
+
+.sc2{
+  margin-top: -150px;
+  flex-direction: column-reverse;
+}
+.img_elemento_sc2 {
+  margin-top: 0px;
+  height: 20rem;
+}
+
+.p_sobreMi {
+  text-align: center;
+  width: 100%;
+}
+
+.sc4 {
+  margin-bottom: 0;
+}
+.img_elemento_sc4{
+  height: 20rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.sc5 {
+  background-color: var(--color_var_3);
+  padding: 2rem 0 2rem 0;
+}
+
+}

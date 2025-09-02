@@ -1,0 +1,17 @@
+
+.navbar {
+  background-color: rgba(146, 180, 244, 0.5);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.navbar.scrolled {
+  background-color: rgba(146, 180, 244, 0.5);
+}
+
+.logo_img{
+  height: 3rem;
+}
+/* Links normales */
+.navbar .nav-link {
+  color: white !important;
+}
